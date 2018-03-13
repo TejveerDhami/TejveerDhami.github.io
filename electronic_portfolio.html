@@ -1,0 +1,100 @@
+<!--DOCTYPE html-->
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Stencil;
+      }
+
+      .header,
+      .footer {
+        background-color: blue;
+        color: white;
+        padding: 15px;
+      }
+
+      .column {
+        float: left;
+        padding: right;
+      }
+
+      .column img {
+        float: right;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .menu {
+        width: 20%;
+      }
+
+      .content {
+        width: 70%;
+        float: right;
+      }
+
+      .more {
+        float: right;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: lime;
+        color: #ffffff;
+      }
+
+      .menu li: hover {
+        background-color: #0099cc;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a href="https://tejveerdhami.github.io/page_one.html">Contact Information</a></li>
+          <li><a href="">Academic History</a></li>
+          <li><a href="">Work And Volunteer Experiences</a></li>
+        </ul>
+      </div>
+
+
+      <div class="column content">
+        <img src="">
+        <h1></h1>
+        <p>
+        </p>
+        <p></p>
+      </div>
+
+      <div class="column content more">
+        <img src=>
+        <h1></h1>
+        <p>
+        </p>
+        <p></p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
